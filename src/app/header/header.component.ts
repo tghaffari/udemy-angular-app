@@ -11,7 +11,7 @@ export class HeaderComponent{
     collapsed=true
     
 
-    changeView(selectedView) {
+    changeView(selectedView: string) {
       this.view.emit(selectedView)
     }
 

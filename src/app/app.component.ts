@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   view: string = 'recipes'
 
-  onNavigate(selectedView) {
+  onNavigate(selectedView:string) {
     this.view = selectedView;
   }
  
